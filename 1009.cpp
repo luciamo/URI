@@ -3,14 +3,13 @@
 using namespace std;
 
 int main() {
-
-    int A, B;
-    double C, S;
+	string A;
+    double B, C, D, S;
 	cin >> A >> B >> C;
-	S = (B * C);
-	cout << "NUMBER = " << A << endl;
+	D = C*15/100;
+	S = (B + D);
 	cout.precision(2);
-	cout << "SALARY = U$ " << fixed << S << endl;
+	cout << "TOTAL = R$ " << fixed << S << endl;
 
     return 0;
 }
